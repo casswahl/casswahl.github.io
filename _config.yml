@@ -1,0 +1,21 @@
+# Site settings
+title: TeCass
+header-img: img/home-bg.png
+email: cassady.wahl@gmail.com
+copyright_name: casswahl
+description: > # this means to ignore newlines until "baseurl:"
+  Research and Thoughts on Tech, Innovation, and Web Development
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: c_ass_ady
+github_username:  casswahl
+learn_profile: casswahl
+email_username: cassady.wahl@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
